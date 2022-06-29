@@ -36,7 +36,7 @@
     center: true,
     dots: false,
     loop: true,
-    nav: true,
+    nav: false,
     navText: [
       '<i class="bi bi-chevron-left"></i>',
       '<i class="bi bi-chevron-right"></i>',
@@ -49,7 +49,7 @@
         items: 1,
       },
       768: {
-        items: 2,
+        items: 1,
       },
       992: {
         items: 1,

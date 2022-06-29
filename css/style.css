@@ -254,6 +254,32 @@
 }
 
 
+.contact-item {
+    
+    color:#0E2E50;
+    text-align: center;
+    cursor: pointer;
+   
+   
+    
+}
+
+.contact-item i{
+    font-size:50px;
+    
+}
+
+.contact-item:hover i {
+    
+    box-shadow: none;
+    font-size:70px;
+    
+
+   
+    color:#0E2E50;
+
+}
+
 /*** Service ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
@@ -263,7 +289,13 @@
 
 .service-item:hover {
     box-shadow: none;
+    background-color: #0E2E50;
     border-color: var(--primary);
+    color:#DDDDDD;
+
+}
+.service-item:hover h5{
+    color:#F3F6F8;
 }
 
 .service-item .service-icon,
